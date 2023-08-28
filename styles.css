@@ -11,7 +11,7 @@ html{
 body {
     font-family: Arial, sans-serif;
     min-height: 100%;
-    background-image:url("/images/photo-1564576605563-13d58aac3d80.avif");
+    background-image:url("images/photo-1564576605563-13d58aac3d80.avif");
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
