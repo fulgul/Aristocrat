@@ -11,7 +11,7 @@ html{
 body {
     font-family: Arial, sans-serif;
     min-height: 100%;
-    background-image:url("images/photo-1564576605563-13d58aac3d80.avif");
+    background-image:url(./images/photo-1564576605563-13d58aac3d80.avif);
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -24,14 +24,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #171717;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    max-height: 40px;
 }
 
 .hamburger {
@@ -63,7 +64,6 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('hero-image.jpg');
     background-size: cover;
     text-align: center;
     padding: 100px 0;
@@ -72,11 +72,12 @@ body {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.5), 1px -1px 0 rgba(255, 255, 255, 0.5), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.5);
+   
 }
 .text {
     font-size: 20px;
     margin-top: -50px;
+    font-weight: 700;
   }
 header{
     height: 100%;
@@ -92,6 +93,7 @@ header{
     justify-content: center;
     height: 5vh;
     width: 5vw;
+    min-width: 40px;
     background-color: #ff9900;
     color: #fff;
     padding: 10px 20px;
@@ -126,4 +128,10 @@ header{
     padding: 20px;
     background-color: #333;
     color: #fff;
+}
+
+@media only screen and (max-width: 740px) {
+    .logo{
+        content: url(./images/Logo.png);
+    }
 }
