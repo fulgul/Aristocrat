@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p {
+* {
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .menu a {
@@ -69,7 +69,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 128px;
+    font-size: calc(7vw + 24px);
     margin-bottom: 20px;
     background: rgb(255,255,255);
     background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(230,230,230,0.2) 100%);
@@ -134,5 +134,9 @@ header{
 @media only screen and (max-width: 740px) {
     .logo{
         content: url(./images/Logo.png);
+    }
+
+    .menu li {
+        margin-right: 10px;
     }
 }
