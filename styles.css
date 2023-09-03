@@ -11,7 +11,7 @@ html{
 body {
     font-family: Arial, sans-serif;
     min-height: 100%;
-    background-image:url(./images/photo-1564576605563-13d58aac3d80.avif);
+    background-image:url(./images/janis-ringli-93NY0dTeUYE-unsplash.jpg);
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -66,20 +66,21 @@ body {
 .hero {
     background-size: cover;
     text-align: center;
-    padding: 100px 0;
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 128px;
     margin-bottom: 20px;
-   
+    background: rgb(255,255,255);
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(230,230,230,0.2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
-.text {
-    font-size: 20px;
-    margin-top: -50px;
-    font-weight: 700;
-  }
+
+
 header{
+    color: white;
     height: 100%;
     display: flex;
     justify-content: space-around;
